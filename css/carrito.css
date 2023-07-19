@@ -1,0 +1,138 @@
+.Shop-content{
+
+display: flex;
+justify-content:space-around;
+flex-wrap: wrap;
+margin-top: 30px;
+margin-left: 80px;
+margin-right: 80px;
+margin-right: 80px;
+
+}
+
+.card{
+
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 7px;
+
+}
+
+.card  img{
+
+width: 90%;
+height: 250px;
+}
+
+.price{
+    color:gray;
+    font-size: 25px;
+
+}
+
+.comprar{
+  border :none;
+  outline: 0;
+  padding: 12px;
+  border-radius: 7px;
+  background: rgb(22, 159, 250);
+  color:white;
+  text-align: center;
+  cursor:pointer;
+  width: 100%;
+  /* justify-content: center; */
+}
+
+
+.comprar:hover{
+    opacity:0.8 ;
+}
+
+
+.nav{
+
+    background: rgb(22, 159, 250);
+    height: 50px;
+
+}
+
+.carrito{
+    align-items: center;
+    justify-content: end;
+}
+
+*{
+    margin: 0;
+}
+
+
+.modal-container .modal-content{
+    
+display: flex;
+
+flex-direction: row;
+justify-content: space-around;
+align-items: center;
+width: 70%;
+margin: 10px;
+}
+
+.modal-container div img{
+
+    height: 120px;
+    width: 120px;
+    border-radius: 2px;
+}
+
+.total-content{
+    font-size: 25px;
+    padding: 20px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.modal-header{
+    display: flex;
+    justify-content: space-around;
+    background-color: #0a0909;
+    color:#fff;
+  width: 100%;
+
+  border-radius: 3px;
+
+}
+
+.modal-header-title{
+    justify-self: start;
+}
+
+.modal-header-button{
+ align-items: center;
+    cursor: pointer;
+
+}
+
+.modal-container{
+
+    width: 80%;
+    margin: 0 10%;
+    max-height: 88vh;
+    color:#fff;
+    background-color: rgb(22, 159, 250);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    overflow: auto;
+    z-index:9px;
+    top: 12vh;
+    scrollbar-color: none;
+
+
+}
+
+
+.modal-container::-webkit-scrollbar{
+
+    display: none;
+}
+
